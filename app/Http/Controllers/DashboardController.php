@@ -12,5 +12,7 @@ class DashboardController extends Controller
     public function index(){
         $alldata=Departments::get();
         return view('dashboard',compact('alldata'));
+
+
     }
 }
